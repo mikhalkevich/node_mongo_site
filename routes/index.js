@@ -13,8 +13,8 @@ router.get('/:id?', function(req, res, next) {
         Themas.findOne({'url':tit}, function(err, ttext){
            if(!ttext){
                ttext = {
-                   name:'Home page',
-                   body:'Welcome to the site'
+                   name:'Добро пожаловать на мой сайт сайт',
+                   body:'http://mikhalkevich.colony.by'
                }
            }
 	console.log(ttext);
