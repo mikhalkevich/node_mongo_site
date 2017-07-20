@@ -1,0 +1,24 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+.menu {
+ display:flex;
+}
+.menu a{
+ flex:1;
+ background:orange;
+ color:white;
+ padding:5px;
+ text-decoration:none;
+ text-align:center;
+ border-right:solid 1px white;
+}
+.menu a:hover {
+ background:white;
+ color:red;
+}
